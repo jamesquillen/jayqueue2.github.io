@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caribbean Treasure Hunt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://img.icons8.com/doodle/48/000000/treasure-chest.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Caribbean Treasure Hunt</h1>
+    <div class="rules-section">
+      <h3>Rules of the game.</h3>
+      <ul class="rules-list">
+        <li>Click the boxes to reveal, what's on the map.</li>
+        <li>If you click the bomb, you lose.</li>
+        <li>If you click the treasure you win.</li>
+      </ul>
+    </div>
+    <div class="game-board">
+      <table class="game-table">
+        <tr class="game-row">
+          <td id="0" onclick="treasure(0)">Test</td>
+          <td id="1" onclick="treasure(1)">Test</td>
+          <td id="2" onclick="treasure(2)">Test</td>
+        </tr>
+        <tr class="game-row">
+          <td id="3" onclick="treasure(3)">Test</td>
+          <td id="4" onclick="treasure(4)">Test</td>
+          <td id="5" onclick="treasure(5)">Test</td>
+        </tr>
+        <tr class="game-row">
+          <td id="6" onclick="treasure(6)">Test</td>
+          <td id="7" onclick="treasure(7)">Test</td>
+          <td id="8" onclick="treasure(8)">Test</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="button">
+      <button type="button" onClick="location.reload()">Restart Game</button>
+    </div>
+
+    <footer>
+      &copy; Chris | James | Immanuel |
+      <a href="https://www.learnacademy.org">LEARN ACADEMY </a>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
